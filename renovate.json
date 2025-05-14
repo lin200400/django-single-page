@@ -1,0 +1,12 @@
+"terraform": {
+    "commitMessageTopic": "Terraform",
+    "managerFilePatterns": ["/\\.tf$/"],
+    "pinDigests": false,
+    "packageRules": [
+    {
+      "matchDatasources": ["terraform-provider", "terraform-module"],
+      "registryUrls": ["https://registry.opentofu.org"]
+    }
+  ]
+}
+    
